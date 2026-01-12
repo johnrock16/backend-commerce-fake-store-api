@@ -1,4 +1,4 @@
-# backend-commerce-fake-store-
+# backend-commerce-fake-store-api
 
 This repository contains a **backend service** that simulates a e-commerce platform.
 It was built to experiment with and practice **event-driven architectures**, **background workers**, **observability**, and **reliability patterns** in a realistic environment.
