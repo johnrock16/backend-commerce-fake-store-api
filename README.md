@@ -83,3 +83,27 @@ npx prisma migrate dev --name init
 
 ## ▶️ Running the project
 You need **two terminals**.
+
+### API Server
+```bash
+npm run dev
+```
+
+### Workers (event processors, queues, webhooks)
+```bash
+npm run workers
+```
+The system will now be fully operational.
+
+## 📚 API Documentation (Swagger)
+
+All endpoints are available via **Swagger**:
+
+👉 http://localhost:3000/docs/
+
+From there you can:
+
+- Create products
+- Place orders
+- Add and test webhooks
+- Inspect request / response models
