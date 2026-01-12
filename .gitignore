@@ -1,0 +1,9 @@
+
+# Keep environment variables out of version control
+
+/apps/fake-store-api/.env
+/apps/fake-store-api/node_modules/*
+/apps/fake-store-api/logs/*
+/apps/fake-store-api/prisma/migrations/
+/apps/fake-store-api/src/generated/*
+/apps/fake-store-api/package-lock.json
